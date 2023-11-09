@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>image slider</title>
+  
+  <style>
+  body{
+   
+    text-align: center ;
+    
+    box-sizing: border-box;
+  }
+    #show{
+      height: 690px;
+      
+      width: 90%;
+      margin-top: 10px;
+      align-items: center ;
+      margin-left: 18px;
+      background: url("IMG-0.jpg") center/cover no-repeat;
+      border-radius: 15px;
+      
+    }
+    
+    
+    #next{
+      position: absolute;
+      top:50%;
+      right:-0%;
+      font-size: 15px;
+      background-color: blue;
+      color: white;
+      height :30px;
+      border-radius: 10px;
+      border: none;
+      font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+      width: 60px;
+      margin-right: 3px;
+    }
+    
+      #previous{
+      position: absolute;
+      top:50%;
+      left:-0%;
+      font-size: 15px;
+      background-color: blue;
+      color: white;
+      height :30px;
+      border-radius: 10px;
+      border: none;
+      font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+      width: 80px;
+      margin-right: 3px;
+      }
+    #next:active{
+      opacity: 0.5;
+      height: 31px;
+    }
+    #previous:active{
+      opacity :0.5;
+      height: 31px;
+    }
+    
+    
+    
+    
+    
+    
+    
+    
+    
+  </style>
+  
+  
+  
+  
+  
+</head>
+
+<body>
+  
+  
+  
+  <div id="show">
+    
+    
+  </div>
+  
+  
+  <button id="next" >NEXT</button>
+  <button id="previous">PREVIOUS</button>
+  
+
+<script src="image-slider.js"></script>
+</body>
+
+</html>
